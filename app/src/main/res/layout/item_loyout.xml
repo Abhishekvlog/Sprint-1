@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/relativeLayout"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/moveiimage"/>
+    <TextView
+        android:id="@+id/moviename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/moveiimage"
+        android:layout_marginTop="20dp"
+        android:text="movieName"/>
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/moveiimage"
+        android:layout_marginTop="60dp"
+        android:text="Releasing date"/>
+    <TextView
+        android:id="@+id/StoryLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/moveiimage"
+        android:layout_marginTop="100dp"
+        android:text="Story Line"/>
+
+
+</RelativeLayout>
